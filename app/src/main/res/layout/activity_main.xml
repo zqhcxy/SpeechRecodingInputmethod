@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zqh.speechrecodinginputmethod.MainActivity">
+
+    <Button
+        android:id="@+id/speechRecording_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="speech test 1--simple" />
+
+    <Button
+        android:id="@+id/speechRecording_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speechRecording_1"
+        android:text="speech test 2-- more" />
+    <Button
+        android:id="@+id/speechRecording_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speechRecording_2"
+        android:text="speech test 3--SearchView" />
+    <Button
+        android:id="@+id/speechRecording_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/speechRecording_3"
+        android:text="speech test 4--bg" />
+</RelativeLayout>
